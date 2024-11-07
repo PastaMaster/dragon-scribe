@@ -1,0 +1,15 @@
+<!-- Set RequestedThemeVariant to "Default" to follow system theme. Causes visual designer to default to light theme. -->
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="DragonScribe.App"
+             xmlns:ui="clr-namespace:DragonScribe.UI"
+             RequestedThemeVariant="Dark">
+
+	<Application.DataTemplates>
+		<ui:ViewLocator/>
+	</Application.DataTemplates>
+
+	<Application.Styles>
+		<FluentTheme/>
+	</Application.Styles>
+</Application>
